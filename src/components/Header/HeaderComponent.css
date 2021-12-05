@@ -1,0 +1,49 @@
+h1{
+    font-size: 3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* color: blue; */
+    /* color: linear-gradient(#4E4376, #2B5876); */
+}
+
+header {
+    width: 100%;
+    height: 14rem;
+    padding: 1.5%;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+    black),
+    url('https://images.pexels.com/photos/3454270/pexels-photo-3454270.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500')
+    no-repeat center,
+    linear-gradient(#4E4376, #2B5876);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 85% 85% / 30%;
+}
+
+
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0.5%;
+    margin: 1.0%;
+}
+
+.git {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    /* background-color: green; */
+    margin: 0.5%;
+}
+
+.linked {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    margin: 0.5%;
+}
