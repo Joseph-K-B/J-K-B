@@ -7,14 +7,16 @@ import './App.css';
 function App() {
   return (
     <>
+    <header>
       <Header />
-      <main className='bulk'>
+    </header>
+    <main className='bulk'>
       <ThreeCanvas />
       <PortContainer />
-      </main>
-      <footer>
+    </main>
+    <footer>
         <ContactContainer />
-      </footer>
+    </footer>
 
     </>
   );
