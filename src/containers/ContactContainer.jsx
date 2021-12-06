@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ContactControls from '../components/Contact/ContactControls';
 import { submitForm } from '../services/contact';
+import '../containers/ContactContainer.css';
 
 
 class ContactContainer extends  Component {
@@ -49,7 +50,6 @@ class ContactContainer extends  Component {
         return (
             <>
             <div className='contactDiv'>
-                <h1>Contact Me</h1>
                 <ContactControls 
                     name = {name}
                     company = {company}

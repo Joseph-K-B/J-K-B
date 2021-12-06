@@ -1,12 +1,28 @@
-/* .contactSect {
-    background-color: green 3px solid;
+.contactDiv{
+    color: green;
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), black),
+    url('https://images.pexels.com/photos/3454270/pexels-photo-3454270.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500')
+    no-repeat center,
+    linear-gradient(#4E4376, #2B5876);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius:85% / 35% 85% 0 0 ;
 }
 
+
 .contactForm {
+    border: hotpink solid 2px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 button{
@@ -14,14 +30,8 @@ button{
     background-color: rgb(49, 49, 49);
 }
 
-.info{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
 .nameInput{
+    border: blue solid 2px;
     color: white;
     background-color: rgb(49, 49, 49);
     margin: 0.5%;
@@ -29,6 +39,7 @@ button{
 }
 
 .companyInput{
+    border: white solid 2px;
     color: white;
     background-color: rgb(49, 49, 49);
     margin: 0.5%;
@@ -36,6 +47,7 @@ button{
 }
 
 .emailInput{
+    border: red solid 2px;
     color: white;
     background-color: rgb(49, 49, 49);
     margin: 0.5%;
@@ -43,9 +55,10 @@ button{
 }
 
 .messageInput{
+    border: green solid 2px;
     color: white;
     background-color: rgb(49, 49, 49);
     width: 68.25%;
     height: 7em;
     border-radius: 0.5%;
-} */
+}

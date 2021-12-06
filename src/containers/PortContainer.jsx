@@ -22,12 +22,12 @@ componentDidMount() {
             <section className='bioSection'>
                 <Bio />
             </section>
-            <section className='stackSection'>
+            {/* <section className='stackSection'>
                 <Stack />   
             </section>
             <section className='projectSection'>
                 <Projects />
-            </section>
+            </section> */}
             </>
         )
     }

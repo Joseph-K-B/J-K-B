@@ -9,8 +9,8 @@ function App() {
     <>
       <Header />
       <div className='bulk'>
-      <ThreeCanvas />
-      <PortContainer />
+      {/* <ThreeCanvas /> */}
+      {/* <PortContainer /> */}
       <ContactContainer />
       </div>
 
