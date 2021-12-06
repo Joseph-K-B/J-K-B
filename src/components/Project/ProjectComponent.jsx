@@ -1,12 +1,12 @@
 import React from 'react';
-import css from '../styles/projects.css'
+import '../Project/ProjectComponent.css';
 
 const Projects = () => {
     return(
         <>
-            <section className={css.projects}>
-            <div className={css.zooLander}>
-                <a href='https://zoolander.netlify.app/' className={css.links}><h2>zooLander</h2></a>
+            <section className='projects'>
+            <div className='zooLander'>
+                <a href='https://zoolander.netlify.app/' className='links'><h2>zooLander</h2></a>
                 <h4>React || Node || Express || PostgreSQL</h4>
                 <p>
                     zooLander is an informational application that allows users to build their own personal zoo.
@@ -15,8 +15,8 @@ const Projects = () => {
                     From front to back the code is comprehensive, clean, and tested. 5 day sprint, 4 developers.
                 </p>
             </div>
-            <div className={css.gardenBuddy}>
-                <a href='https://joseph-k-b.github.io/garden_app/' className={css.links}><h2>gardenBuddy</h2></a>
+            <div className='gardenBuddy'>
+                <a href='https://joseph-k-b.github.io/garden_app/' className='links'><h2>gardenBuddy</h2></a>
                 <h4>Vanilla JS</h4>
                 <p>
                    gardenBuddy is a comprehensive website in which users can choose from a variety of edible plants to build their own garden.
@@ -26,8 +26,8 @@ const Projects = () => {
                    5 day sprint, 3 developers.
                 </p>
             </div>
-            <div className={css.faceSpace}>
-                <a href='https://github.com/alchemy-june2021-faceSpace' className={css.links}><h2>faceSpace</h2></a>
+            <div className='faceSpace'>
+                <a href='https://github.com/alchemy-june2021-faceSpace' className='links'><h2>faceSpace</h2></a>
                 <h4>Node || Express || PostgreSQL</h4>
                 <p>
                     faceSpace is a social media/e-commerce back end build. The app has a multitude of tables that would allow users to interact with eachother.
@@ -36,8 +36,8 @@ const Projects = () => {
                     and make this a viable web app. 6 day sprint, 4 developers.
                 </p>
             </div>
-            <div className={css.postmaClone}>
-                <a href='https://postmaclone.netlify.app' className={css.links}><h2>postmaClone</h2></a>
+            <div className='postmaClone'>
+                <a href='https://postmaclone.netlify.app' className='links'><h2>postmaClone</h2></a>
                 <h4>React</h4>
                 <p>
                     postmaClone functions almost identically to Postman. In essence it is a Postman clone ran through the browser.

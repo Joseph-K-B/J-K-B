@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+import Header from '../src/components/Header/HeaderComponent';
+import ThreeCanvas from '../src/components/threejs/ThreeCanvas';
+import PortContainer from '../src/containers/PortContainer';
+import ContactContainer from '../src/containers/ContactContainer';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <div className='bulk'>
+      <ThreeCanvas />
+      <PortContainer />
+      <ContactContainer />
+      </div>
+
+    </>
   );
 }
 

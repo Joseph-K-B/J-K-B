@@ -1,11 +1,11 @@
 import React from 'react';
-import css from '../styles/stack.css'
+import '../Stack/StackComponent.css'
 
 const Stack = () => {
     return(
         <>
-            <section className={css.stack}>
-                <div className={css.language}>
+            <section className='stack'>
+                <div className='language'>
                     <h3>Languages</h3>
                     <ul>
                         <li>JavaScript</li>
@@ -13,7 +13,7 @@ const Stack = () => {
                         <li>CSS</li>
                     </ul>
                 </div>
-                <div className={css.framework}>
+                <div className='framework'>
                     <h3>Frameworks</h3>
                     <ul>
                         <li>React</li>
@@ -22,13 +22,12 @@ const Stack = () => {
                         <li>Next</li>
                     </ul>
                 </div>
-                <div className={css.library}>
+                <div className='library'>
                     <h3>Libraries</h3>
                     <ul>
                         <li>Three</li>
                         <li>Cannon</li>
                         <li>Blender</li>
-                        {/* <li>Tailwind</li> */}
                     </ul>
                 </div>
             </section>

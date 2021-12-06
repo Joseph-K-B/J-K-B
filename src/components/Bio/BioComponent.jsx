@@ -1,11 +1,10 @@
 import React from 'react';
-import css from '../styles/bio.css'
+import '../Bio/BioComponent.css';
 
 const Bio = () => {
     return (
         <>
-            {/* <h3>Info</h3> */}
-            <p className={css.info}>
+            <p className='info'>
                 With a passion for creativity, design, and problem solving, 
                 software development is one of my many pursuits. Utilizing a full tech stack 
                 and test driven development, reliable and accessible software is merely a module away.

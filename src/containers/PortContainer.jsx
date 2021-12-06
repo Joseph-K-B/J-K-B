@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-
-import Bio from '../components/BioComponent';
-import Projects from '../components/ProjectComponent';
-import Stack from '../components/StackComponent';
-
-import css from '../styles/portfolio-container.css'
-import css2 from '../styles/style.css';
+import Bio from '../components/Bio/BioComponent';
+import Projects from '../components/Project/ProjectComponent';
+import Stack from '../components/Stack/StackComponent';
+import '../containers/PortContainer.css'
+// import css2 from '../styles/style.css';
 
 
 
@@ -20,11 +18,10 @@ componentDidMount() {
 }
     render() {
         return (
-            <>
-                
+            <>                
             <div>
                 <Bio />
-                     <img src='' alt='Headshot' className={css.headshot}/>
+                     <img src='' alt='Headshot' className='headshot'/>
                 <Stack />
                 <Projects />  
                 </div>

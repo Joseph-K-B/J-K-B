@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ContactControls from '../components/ContactControls';
+import ContactControls from '../components/Contact/ContactControls';
 import { submitForm } from '../services/contact';
-import css from '../styles/contact.css'
+
 
 class ContactContainer extends  Component {
     state = {
@@ -48,7 +48,7 @@ class ContactContainer extends  Component {
         const {name, company, email, message} = this.state
         return (
             <>
-            <div className={css.contactDiv}>
+            <div className='contactDiv'>
                 <h1>Contact Me</h1>
                 <ContactControls 
                     name = {name}

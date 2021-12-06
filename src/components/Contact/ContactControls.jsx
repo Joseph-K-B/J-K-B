@@ -1,5 +1,5 @@
 import React from 'react';
-import css from '../styles/contact.css'
+import '../Contact/ContactControls.css';
 
 function ContactControls({
     name,
@@ -13,8 +13,8 @@ function ContactControls({
     onSubmit
 }) {
     return(
-        <form onSubmit={onSubmit} className={css.contactForm}>
-            <div className={css.info}>
+        <form onSubmit={onSubmit} className='contactForm'>
+            <div className='info'>
                 <input
                     id='name'
                     name='name'
@@ -22,7 +22,7 @@ function ContactControls({
                     type='text'
                     value={name}
                     onChange={onNameInput}
-                    className={css.nameInput}
+                    className='nameInput'
                 />
                 <label htmlFor='name'></label>
                 <input
@@ -32,7 +32,7 @@ function ContactControls({
                     type='text'
                     value={company}
                     onChange={onCompanyInput}
-                    className={css.companyInput}
+                    className='companyInput'
                 />
                 <label htmlFor='company'></label>
                 <input
@@ -42,7 +42,7 @@ function ContactControls({
                     type='text'
                     value={email}
                     onChange={onEmailInput}
-                    className={css.emailInput}
+                    className='emailInput'
                 />
                 <label htmlFor='email'></label>
                 <button aria-label='contact-me'>Send</button>
@@ -55,7 +55,7 @@ function ContactControls({
                     type='text'
                     value={message}
                     onChange={onMessageInput}
-                    className={css.messageInput}
+                    className='messageInput'
                 />
                 <label htmlFor='message'></label>
             </div>  

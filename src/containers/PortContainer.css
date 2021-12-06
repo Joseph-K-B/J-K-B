@@ -1,0 +1,12 @@
+.bio {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+}
+
+.headshot
+{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
