@@ -4,6 +4,7 @@ import '../Bio/BioComponent.css';
 const Bio = () => {
     return (
         <>
+            <img src='' alt='Headshot' className='headshot'/>
             <p className='info'>
                 With a passion for creativity, design, and problem solving, 
                 software development is one of my many pursuits. Utilizing a full tech stack 

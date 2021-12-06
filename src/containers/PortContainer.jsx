@@ -19,12 +19,15 @@ componentDidMount() {
     render() {
         return (
             <>                
-            <div>
+            <section className='bioSection'>
                 <Bio />
-                     <img src='' alt='Headshot' className='headshot'/>
-                <Stack />
-                <Projects />  
-                </div>
+            </section>
+            <section className='stackSection'>
+                <Stack />   
+            </section>
+            <section className='projectSection'>
+                <Projects />
+            </section>
             </>
         )
     }

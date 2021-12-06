@@ -10,6 +10,6 @@
     display: grid;
     text-align: center;
     align-items: center;
-    grid-template-columns: 1fr 0.1fr;
+    grid-template-columns: 1fr;
     border-radius: 2.5%;
 }
