@@ -7,7 +7,7 @@ import { useFrame } from '@react-three/fiber'
 import texture from '../../static/textures/particles/3.png'
 
 const palette = colors[Math.floor(Math.random() * colors.length)]
-const controls = useControls
+// const controls = useControls
 
 function Particles() {
   const { count, size, positionFactor, rotationSpeed } = useControls({

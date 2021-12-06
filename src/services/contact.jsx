@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 export const submitForm = async () => {
     const res = await fetch();
