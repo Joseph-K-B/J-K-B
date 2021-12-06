@@ -8,11 +8,13 @@ function App() {
   return (
     <>
       <Header />
-      <div className='bulk'>
-      {/* <ThreeCanvas /> */}
-      {/* <PortContainer /> */}
-      <ContactContainer />
-      </div>
+      <main className='bulk'>
+      <ThreeCanvas />
+      <PortContainer />
+      </main>
+      <footer>
+        <ContactContainer />
+      </footer>
 
     </>
   );

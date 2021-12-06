@@ -8,12 +8,12 @@ const mouse = useRef([0, 0])
 
     return (
         <Canvas
-        linear
-        dpr={[1, 2]}
-        camera={{ fov: 100, position: [0, 0, 30] }}
-        onCreated={({ gl }) => {
-            gl.setClearColor(new THREE.Color('#020207'))
-        }}>
+            linear
+            dpr={[1, 2]}
+            camera={{ fov: 100, position: [0, 0, 30] }}
+            onCreated={({ gl }) => {
+                gl.setClearColor(new THREE.Color('#020207'))
+            }}>
             <pointLight 
                 distance={100} 
                 intensity={4}

@@ -6,7 +6,7 @@ const Projects = () => {
         <>
             <section className='projects'>
             <div className='zooLander'>
-                <a href='https://zoolander.netlify.app/' className='links'><h2>zooLander</h2></a>
+                <a href='https://zoolander.netlify.app/' className='projectLinks'><h2>zooLander</h2></a>
                 <h4>React || Node || Express || PostgreSQL</h4>
                 <p>
                     zooLander is an informational application that allows users to build their own personal zoo.
@@ -16,7 +16,7 @@ const Projects = () => {
                 </p>
             </div>
             <div className='gardenBuddy'>
-                <a href='https://joseph-k-b.github.io/garden_app/' className='links'><h2>gardenBuddy</h2></a>
+                <a href='https://joseph-k-b.github.io/garden_app/' className='projectLinks'><h2>gardenBuddy</h2></a>
                 <h4>Vanilla JS</h4>
                 <p>
                    gardenBuddy is a comprehensive website in which users can choose from a variety of edible plants to build their own garden.
@@ -27,7 +27,7 @@ const Projects = () => {
                 </p>
             </div>
             <div className='faceSpace'>
-                <a href='https://github.com/alchemy-june2021-faceSpace' className='links'><h2>faceSpace</h2></a>
+                <a href='https://github.com/alchemy-june2021-faceSpace' className='projectLinks'><h2>faceSpace</h2></a>
                 <h4>Node || Express || PostgreSQL</h4>
                 <p>
                     faceSpace is a social media/e-commerce back end build. The app has a multitude of tables that would allow users to interact with eachother.
@@ -37,7 +37,7 @@ const Projects = () => {
                 </p>
             </div>
             <div className='postmaClone'>
-                <a href='https://postmaclone.netlify.app' className='links'><h2>postmaClone</h2></a>
+                <a href='https://postmaclone.netlify.app' className='projectLinks'><h2>postmaClone</h2></a>
                 <h4>React</h4>
                 <p>
                     postmaClone functions almost identically to Postman. In essence it is a Postman clone ran through the browser.

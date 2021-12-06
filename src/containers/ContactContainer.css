@@ -16,9 +16,7 @@
     border-radius:85% / 35% 85% 0 0 ;
 }
 
-
 .contactForm {
-    border: hotpink solid 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +29,6 @@ button{
 }
 
 .nameInput{
-    border: blue solid 2px;
     color: white;
     background-color: rgb(49, 49, 49);
     margin: 0.5%;
@@ -39,7 +36,6 @@ button{
 }
 
 .companyInput{
-    border: white solid 2px;
     color: white;
     background-color: rgb(49, 49, 49);
     margin: 0.5%;
@@ -47,7 +43,6 @@ button{
 }
 
 .emailInput{
-    border: red solid 2px;
     color: white;
     background-color: rgb(49, 49, 49);
     margin: 0.5%;
@@ -55,7 +50,6 @@ button{
 }
 
 .messageInput{
-    border: green solid 2px;
     color: white;
     background-color: rgb(49, 49, 49);
     width: 68.25%;
