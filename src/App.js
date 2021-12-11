@@ -12,7 +12,9 @@ function App() {
     </header>
     <main className='bulk'>
       <ThreeCanvas />
-      <PortContainer />
+      <section>
+        <PortContainer />
+      </section>
     </main>
     <footer>
         {/* <ContactContainer /> */}

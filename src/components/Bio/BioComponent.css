@@ -3,9 +3,10 @@
     color: white;
     top: 5%;
     left: 52.5%;
-    /* height: 0.5rem; */
-    /* width: 10.5rem; */
-    background-color: black;
+    height: 60%;
+    max-height: 100%;
+    max-width: 60%;
+    background-color: blue;
     opacity: 60%;
     display: grid;
     text-align: center;

@@ -1,11 +1,13 @@
 .bioSection {
     color: white;
+    background-color: green;
+    /* height: 5.5rem; */
 }
 
-.bio {
+.bio{    
     display: grid;
     grid-template-columns: 2fr 1fr;
-    justify-items: center;
+    justify-items: center;    
 }
 
 .headshot

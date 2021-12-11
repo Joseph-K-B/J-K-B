@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Bio from '../components/Bio/BioComponent';
 import Projects from '../components/Project/ProjectComponent';
 import Stack from '../components/Stack/StackComponent';
-import '../containers/PortContainer.css'
+import './PortContainer.css'
 // import css2 from '../styles/style.css';
 
 

@@ -1,14 +1,15 @@
 .stack {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    /* margin: 10%; */
 }
 
 .language {
     position: absolute;
     color: white;
-    top: 32.0%;
+    top: 65.0%;
     left: 1.0%;
-    height: 10%;
+    height: 25%;
     width: 30%;
     max-width: 32%;
     font-size: 1.25em;
@@ -25,9 +26,9 @@
 .framework {
     position: absolute;
     color: white;
-    top: 32.0%;
+    top: 65.0%;
     left: 35.5%;
-    height: 10%;
+    height: 25%;
     width: 30%;
     max-width: 32%;
     font-size: 1.25em;
@@ -44,9 +45,9 @@
 .library {
     position: absolute;
     color: white;
-    top: 32.0%;
+    top: 65.0%;
     left: 69.5%;
-    height: 10%;
+    height: 25%;
     width: 30%;
     max-width: 32%;
     font-size: 1.25em;
