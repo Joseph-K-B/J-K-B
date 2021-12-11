@@ -2,9 +2,9 @@
     position: absolute;
     color: white;
     top: 5%;
-    left: 55%;
-    height: 15%;
-    width: 45.5%;
+    left: 52.5%;
+    /* height: 0.5rem; */
+    /* width: 10.5rem; */
     background-color: black;
     opacity: 60%;
     display: grid;

@@ -15,7 +15,7 @@ function App() {
       <PortContainer />
     </main>
     <footer>
-        <ContactContainer />
+        {/* <ContactContainer /> */}
     </footer>
 
     </>

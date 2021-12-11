@@ -25,9 +25,9 @@ componentDidMount() {
             <section className='stackSection'>
                 <Stack />   
             </section>
-            <section className='projectSection'>
+            {/* <section className='projectSection'>
                 <Projects />
-            </section>
+            </section> */}
             </>
         )
     }

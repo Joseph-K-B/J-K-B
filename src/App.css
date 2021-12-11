@@ -31,6 +31,6 @@ canvas {
     top: 0;
     left: 0;
     outline: none;
-    height: 225%;
-    width: 225%;
+    height: 100%;
+    width: 100%;
 }
