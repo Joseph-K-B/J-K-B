@@ -16,9 +16,9 @@ function App() {
         <PortContainer />
       </section>
     </main>
-    {/* <footer>
+    <footer>
         <ContactContainer />
-    </footer> */}
+    </footer>
 
     </>
   );
