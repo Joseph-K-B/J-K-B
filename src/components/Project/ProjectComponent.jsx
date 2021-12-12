@@ -21,8 +21,8 @@ const Projects = () => {
                 <p>
                    gardenBuddy is a comprehensive website in which users can choose from a variety of edible plants to build their own garden.
                    After selecting their plants the user is provided with recomendations for companion plants based on their selection.
-                   Finally after selecting their companion plants the user is rendered a small raised bed with icons placed accordingly.
-                   This also incorporates information about each plant. This was solely a front end build using only vanilla JavaScript.
+                   The user is rendered a small raised bed with icons placed accordingly.
+                   This also incorporates information about each plant.
                    5 day sprint, 3 developers.
                 </p>
             </div>
@@ -30,8 +30,7 @@ const Projects = () => {
                 <a href='https://github.com/alchemy-june2021-faceSpace' className='projectLinks'><h2>faceSpace</h2></a>
                 <h4>Node || Express || PostgreSQL</h4>
                 <p>
-                    faceSpace is a social media/e-commerce back end build. The app has a multitude of tables that would allow users to interact with eachother.
-                    Incorporating users saved information, they are able to make posts, comments and likes. While on the ecommerce side there is an option to
+                    faceSpace is a social media/e-commerce back end build.                 Incorporating users saved information, they are able to make posts, comments and likes. While on the ecommerce side there is an option to
                     post items for sale, save them to a wish list, and track purchased items. This is purely back-end, however, the addition of a front-end would be streamlined
                     and make this a viable web app. 6 day sprint, 4 developers.
                 </p>

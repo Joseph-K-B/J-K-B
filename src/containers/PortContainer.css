@@ -1,7 +1,7 @@
 .bioSection {
     color: white;
     background-color: green;
-    /* height: 5.5rem; */
+    height: 100%rem;
 }
 
 .bio{    
@@ -13,6 +13,6 @@
 .headshot
 {
     position: absolute;
-    top: 10%;
+    top: 0.5%;
     left: 15%;
 }

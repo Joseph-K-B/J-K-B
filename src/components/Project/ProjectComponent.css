@@ -58,10 +58,11 @@
 .zooLander{
     position: absolute;
     color: white;
-    top: 37%;
-    left: 10.5%;
-    height: 15.5em;
-    width: 20em;
+    top: 35%;
+    left:8%;
+    height: 12.5rem;
+    max-height: 35rem;
+    max-width: 35%;
     background-color: black;
     opacity: 80%;
     display: flex;
@@ -76,10 +77,11 @@
 .gardenBuddy{
     position: absolute;
     color: white;
-    top: 37%;
-    left: 60%;
-    height: 15.5em;
-    width: 20em;
+    top: 35%;
+    left: 55%;
+    height: 12.5rem;
+    max-height: 35rem;
+    max-width: 35%;
     background-color: black;
     opacity: 80%;
     display: flex;
@@ -94,10 +96,11 @@
 .faceSpace{
     position: absolute;
     color: white;
-    top: 60%;
-    left: 10.5%;
-    height: 15.5em;
-    width: 20em;
+    top: 69%;
+    left: 8%;
+    height: 12.5rem;
+    max-height: 35rem;
+    max-width: 35%;
     background-color: black;
     opacity: 80%;
     display: flex;
@@ -112,10 +115,11 @@
 .postmaClone{
     position: absolute;
     color: white;
-    top: 60%;
-    left:60%;
-    height: 15.5em;
-    width: 20em;
+    top: 69%;
+    left: 55%;
+    height: 12.5rem;
+    max-height: 35rem;
+    max-width: 35%;
     background-color: black;
     opacity: 80%;
     display: flex;

@@ -21,13 +21,13 @@ componentDidMount() {
             <>                
             <section className='bioSection'>
                 <Bio />
-            </section>
-            <section className='stackSection'>
+            {/* </section>
+            <section className='stackSection'> */}
                 <Stack />   
-            </section>
-            {/* <section className='projectSection'>
+            {/* </section>
+            <section className='projectSection'> */}
                 <Projects />
-            </section> */}
+            </section>
             </>
         )
     }

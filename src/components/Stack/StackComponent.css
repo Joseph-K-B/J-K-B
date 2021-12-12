@@ -7,9 +7,9 @@
 .language {
     position: absolute;
     color: white;
-    top: 65.0%;
-    left: 1.0%;
-    height: 25%;
+    top: 22.0%;
+    left: 0%;
+    height: 9%;
     width: 30%;
     max-width: 32%;
     font-size: 1.25em;
@@ -26,9 +26,9 @@
 .framework {
     position: absolute;
     color: white;
-    top: 65.0%;
-    left: 35.5%;
-    height: 25%;
+    top: 22.0%;
+    left: 33.5%;
+    height: 9%;
     width: 30%;
     max-width: 32%;
     font-size: 1.25em;
@@ -45,9 +45,9 @@
 .library {
     position: absolute;
     color: white;
-    top: 65.0%;
-    left: 69.5%;
-    height: 25%;
+    top: 22.0%;
+    left: 67.0%;
+    height: 9%;
     width: 30%;
     max-width: 32%;
     font-size: 1.25em;
