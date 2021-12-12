@@ -1,0 +1,16 @@
+.info{
+    position: absolute;
+    color: white;
+    top: 0.5%;
+    left: 52.5%;
+    height: 20.5%;
+    max-height: 100%;
+    max-width: 60%;
+    background-color: blue;
+    opacity: 60%;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    border-radius: 2.5%;
+}

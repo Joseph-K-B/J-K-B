@@ -1,0 +1,51 @@
+/* .contactSect {
+    background-color: green 3px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    color: white;
+    background-color: rgb(49, 49, 49);
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nameInput{
+    color: white;
+    background-color: rgb(49, 49, 49);
+    margin: 0.5%;
+    border-radius: 0.5%;
+}
+
+.companyInput{
+    color: white;
+    background-color: rgb(49, 49, 49);
+    margin: 0.5%;
+    border-radius: 0.5%;
+}
+
+.emailInput{
+    color: white;
+    background-color: rgb(49, 49, 49);
+    margin: 0.5%;
+    border-radius: 0.5%;
+}
+
+.messageInput{
+    color: white;
+    background-color: rgb(49, 49, 49);
+    width: 68.25%;
+    height: 7em;
+    border-radius: 0.5%;
+} */

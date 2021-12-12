@@ -1,0 +1,18 @@
+.bioSection {
+    color: white;
+    background-color: green;
+    height: 100%rem;
+}
+
+.bio{    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;    
+}
+
+.headshot
+{
+    position: absolute;
+    top: 0.5%;
+    left: 15%;
+}

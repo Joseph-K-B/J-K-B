@@ -1,0 +1,58 @@
+.contactDiv{
+    color: green;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), black),
+    url('https://images.pexels.com/photos/3454270/pexels-photo-3454270.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500')
+    no-repeat center,
+    linear-gradient(#4E4376, #2B5876);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius:85% / 35% 85% 0 0 ;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    color: white;
+    background-color: rgb(49, 49, 49);
+}
+
+.nameInput{
+    color: white;
+    background-color: rgb(49, 49, 49);
+    margin: 0.5%;
+    border-radius: 0.5%;
+}
+
+.companyInput{
+    color: white;
+    background-color: rgb(49, 49, 49);
+    margin: 0.5%;
+    border-radius: 0.5%;
+}
+
+.emailInput{
+    color: white;
+    background-color: rgb(49, 49, 49);
+    margin: 0.5%;
+    border-radius: 0.5%;
+}
+
+.messageInput{
+    color: white;
+    background-color: rgb(49, 49, 49);
+    width: 68.25%;
+    height: 7em;
+    border-radius: 0.5%;
+}

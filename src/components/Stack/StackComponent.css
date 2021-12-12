@@ -1,0 +1,62 @@
+.stack {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* margin: 10%; */
+}
+
+.language {
+    position: absolute;
+    color: white;
+    top: 22.0%;
+    left: 0%;
+    height: 9%;
+    width: 30%;
+    max-width: 32%;
+    font-size: 1.25em;
+    background-color: black;
+    opacity: 72%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: white solid 0.05rem;
+    margin: 3%;
+    border-radius: 2.5%;
+}
+
+.framework {
+    position: absolute;
+    color: white;
+    top: 22.0%;
+    left: 33.5%;
+    height: 9%;
+    width: 30%;
+    max-width: 32%;
+    font-size: 1.25em;
+    background-color: black;
+    opacity: 72%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: white solid 0.05rem;
+    margin: 3%;
+    border-radius: 2.5%;
+}
+
+.library {
+    position: absolute;
+    color: white;
+    top: 22.0%;
+    left: 67.0%;
+    height: 9%;
+    width: 30%;
+    max-width: 32%;
+    font-size: 1.25em;
+    background-color: black;
+    opacity: 72%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: white solid 0.05rem;
+    margin: 3%;
+    border-radius: 2.5%;
+}
